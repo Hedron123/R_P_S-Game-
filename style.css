@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+h1 {
+    background-color: blue;
+    color: whitesmoke;
+    height: 5rem;
+    line-height: 5rem;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    border-radius: 3rem;
+}
+
+.choice {
+    height: 100px;
+    width: 100px;
+}
+
+img {
+    height: 210px;
+    width: 220px;
+    object-fit: cover;
+}
+
+.choices {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    margin-top: 5rem;
+    border-radius: 50%;
+}
+
+.choice1:hover {
+    opacity: 0.5;
+    cursor: pointer;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.choice2:hover {
+    opacity: 0.5;
+    cursor: pointer;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.choice3:hover {
+    opacity: 0.5;
+    cursor: pointer;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.score-board{
+    display: flex;
+    gap: 10rem;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    margin-top: 5rem;
+}
+
+#user,#comp {
+    font-size: 4rem;
+    text-align: center
+}
+
+#u,#c {
+    text-align: center;
+    justify-content: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.msg-container{
+    margin-top: 5rem;
+    text-align: center;
+}
+
+#msg {
+    background-color: #081b31;
+    color: whitesmoke;
+    font-size: 2rem;    
+    display: inline;
+    padding: 1rem;
+    border-radius: 1rem;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+}
